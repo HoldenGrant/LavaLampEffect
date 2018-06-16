@@ -333,17 +333,21 @@ svg {
 	width:230px;
 	height:202px;
 }
+.lava li.drop19 {
+	width:300px;
+	height:202px;
+}
 .anin1 {
     -webkit-animation: drop1-nanimate 32s linear infinite;
     animation: drop1-nanimate 32s linear infinite;
 }
 @-webkit-keyframes drop1-nanimate {
-    0% {margin-top:100%; margin-left:20px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
-    100% {margin-top:430px; margin-left:0px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+    0% {margin-top:-230px; margin-left:20px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    100% {margin-top:100%; margin-left:0px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
 }
 @keyframes drop1-nanimate {
-    0% {margin-top:-80px; margin-left:20px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
-    100% {margin-top:430px; margin-left:0px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+    0% {margin-top:-230px; margin-left:20px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    100% {margin-top:100%; margin-left:0px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
 }
 
 .anin2 {
@@ -351,12 +355,12 @@ svg {
     animation: drop2-nanimate 44s linear infinite;
 }
 @-webkit-keyframes drop2-nanimate {
-    0% {margin-top:380px; margin-left:0px;}
-    100% {margin-top:-70px; margin-left:20px;}
+    0% {margin-top:100%; margin-left:0px;}
+    100% {margin-top:-200px; margin-left:20px;}
 }
 @keyframes drop2-nanimate {
-    0% {margin-top:380px; margin-left:0px;}
-    100% {margin-top:-70px; margin-left:20px;}
+    0% {margin-top:100%; margin-left:0px;}
+    100% {margin-top:-200px; margin-left:20px;}
 }
 
 .anin3 {
@@ -364,11 +368,11 @@ svg {
     animation: drop3-nanimate 42s linear infinite;
 }
 @-webkit-keyframes drop3-nanimate {
-    0% {margin-top:-70px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    0% {margin-top:-200px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
     100% {margin-top:100%; -webkit-transform: rotate(270deg); transform: rotate(270deg);}
 }
 @keyframes drop3-nanimate {
-    0% {margin-top:-70px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    0% {margin-top:-200px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
     100% {margin-top:100%; -webkit-transform: rotate(270deg); transform: rotate(270deg);}
 }
 
@@ -390,12 +394,12 @@ svg {
     animation: drop5-nanimate 32s linear infinite;
 }
 @-webkit-keyframes drop5-nanimate {
-   0% {margin-top:340px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
-    100% {margin-top:-20px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+   0% {margin-top:100%; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    100% {margin-top:-200px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
 }
 @keyframes drop5-nanimate {
    0% {margin-top:100%; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
-    100% {margin-top:-20px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
+    100% {margin-top:-200px; -webkit-transform: rotate(180deg); transform: rotate(180deg);}
 }
 
 .anin6 {
@@ -404,11 +408,11 @@ svg {
 }
 @-webkit-keyframes drop6-nanimate {
     0% {margin-top:100%;}
-    100% {margin-top:-190px;}
+    100% {margin-top:-300px;}
 }
 @keyframes drop6-nanimate {
     0% {margin-top:100%;}
-    100% {margin-top:-190px;}
+    100% {margin-top:-300px;}
 }
 
 .anin7 {
@@ -416,11 +420,11 @@ svg {
     animation: drop7-nanimate 32s linear infinite;
 }
 @-webkit-keyframes drop7-nanimate {
-    0% {margin-top:-30px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    0% {margin-top:-220px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
     100% {margin-top:100%; -webkit-transform: rotate(420deg); transform: rotate(420deg);}
 }
 @keyframes drop7-nanimate {
-    0% {margin-top:-30px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
+    0% {margin-top:-220px; -webkit-transform: rotate(0deg); transform: rotate(0deg);}
     100% {margin-top:100%; -webkit-transform: rotate(420deg); transform: rotate(420deg);}
 }
 
